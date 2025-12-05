@@ -13,7 +13,7 @@ Currently, two official plugins are available:
 A small React theme switcher using the **Context API**.  
 Easily add light/dark theming to your React app with a `ThemeProvider` and a simple `useTheme()` hook. Preference is persisted to `localStorage`.
 
----
+<img width="1855" height="1017" alt="Image" src="https://github.com/user-attachments/assets/1ee5635d-5538-4a21-9a60-cd0698d08381" />
 
 ## Features
 
