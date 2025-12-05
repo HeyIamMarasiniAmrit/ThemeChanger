@@ -4,8 +4,38 @@ This template provides a minimal setup to get React working in Vite with HMR and
 
 Currently, two official plugins are available:
 
+
 - [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
 - [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+- # themechanger
+
+A small React theme switcher using the **Context API**.  
+Easily add light/dark theming to your React app with a `ThemeProvider` and a simple `useTheme()` hook. Preference is persisted to `localStorage`.
+
+---
+
+## Features
+
+- Light / Dark theme toggle
+- Persists user preference in `localStorage`
+- `ThemeProvider` + `useTheme()` hook for easy integration
+- CSS variables friendly — simple to customize
+- Minimal, production-ready code
+
+---
+
+## Installation
+
+```bash
+# clone
+git clone https://github.com/themechanger.git
+cd themechanger
+
+# install
+npm install
+
+
 
 ## React Compiler
 
